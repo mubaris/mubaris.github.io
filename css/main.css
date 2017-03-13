@@ -1,0 +1,66 @@
+body {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  background-color: #272822;
+  color: #F92672;
+  line-height: 190%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content {
+  margin: 50px;
+}
+
+.contact {
+  margin: 50px;
+}
+
+.title {
+  color: #66D9EF;
+}
+
+.number {
+  color: #555;
+}
+
+.second {
+  color: #A6E22E;
+}
+
+.third {
+  color: #FD971F;
+}
+
+.white {
+  color: #AAA;
+}
+
+.pure-white {
+  color: white;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
