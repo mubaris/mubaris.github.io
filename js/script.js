@@ -2,7 +2,7 @@ var emoji = new EmojiConvertor();
 emoji.img_sets.apple.path = 'http://cdn.mubaris.com/emojis/';
 
 output = "<span class='number'>&ensp;1</span>   Hi! :wave: My name is <span class='title'><a href='http://mubaris.me' target='_blank'>Mubaris NK</a>.</span><br>\
-  <span class='number'>&ensp;2</span>   <span class='second'>I am a student :books: at <span class='title'><a href='https://iiita.ac.in' target='_blank'>Indian Institute of Information Technology, Allahabad</a><img src='http://cdn.mubaris.com/emojis/1f1ee-1f1f3.png' class='emoji'> .</span></span><br>\
+  <span class='number'>&ensp;2</span>   <span class='second'>I am a student :books: at <span class='title'><a href='https://iiita.ac.in' target='_blank'>Indian Institute of Information Technology, Allahabad</a> <img src='http://cdn.mubaris.com/emojis/1f1ee-1f1f3.png' class='emoji'></span></span><br>\
   <span class='number'>&ensp;3</span>   <span class='third'>Born :baby: in <span class='title'><a href='https://en.wikipedia.org/wiki/Malappuram' target='_blank'>Malappuram</a></span>, Kerala.</span><br>\
   <span class='number'>&ensp;4</span><br>\
   <span class='number'>&ensp;5</span>   <span class='white'>======================================</span><br>\
