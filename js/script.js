@@ -1,4 +1,4 @@
-output = "<span class='number'>&ensp;1</span>   Hi! My name is <span class='title'><a href='http://mubaris.me' target='_blank'>Mubaris Hassan</a>.</span><br>\
+output = "<span class='number'>&ensp;1</span>   Hi! My name is <span class='title'><a href='http://mubaris.me' target='_blank'>Mubaris NK</a>.</span><br>\
   <span class='number'>&ensp;2</span>   <span class='second'>I am a student at <span class='title'><a href='https://iiita.ac.in' target='_blank'>Indian Institute of Information Technology, Allahabad</a>.</span></span><br>\
   <span class='number'>&ensp;3</span>   <span class='third'>Born in <span class='title'><a href='https://en.wikipedia.org/wiki/Malappuram' target='_blank'>Malappuram</a></span>, Kerala.</span><br>\
   <span class='number'>&ensp;4</span><br>\
@@ -27,7 +27,7 @@ contact = "<span class='number'>&ensp;1</span>  <a href='https://github.com/muba
 document.addEventListener("DOMContentLoaded", function() {
     Typed.new(".content", {
       strings: [output],
-      typeSpeed: -20,
+      typeSpeed: -50,
       showCursor: false
     });
 });
