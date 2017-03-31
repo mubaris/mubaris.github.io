@@ -1,14 +1,17 @@
-output = "<span class='number'>&ensp;1</span>   Hi! My name is <span class='title'><a href='http://mubaris.me' target='_blank'>Mubaris NK</a>.</span><br>\
-  <span class='number'>&ensp;2</span>   <span class='second'>I am a student at <span class='title'><a href='https://iiita.ac.in' target='_blank'>Indian Institute of Information Technology, Allahabad</a>.</span></span><br>\
-  <span class='number'>&ensp;3</span>   <span class='third'>Born in <span class='title'><a href='https://en.wikipedia.org/wiki/Malappuram' target='_blank'>Malappuram</a></span>, Kerala.</span><br>\
+var emoji = new EmojiConvertor();
+emoji.img_sets.apple.path = 'http://cdn.mubaris.com/emojis/';
+
+output = "<span class='number'>&ensp;1</span>   Hi! :wave: My name is <span class='title'><a href='http://mubaris.me' target='_blank'>Mubaris NK</a>.</span><br>\
+  <span class='number'>&ensp;2</span>   <span class='second'>I am a student :books: at <span class='title'><a href='https://iiita.ac.in' target='_blank'>Indian Institute of Information Technology, Allahabad</a>.</span></span><br>\
+  <span class='number'>&ensp;3</span>   <span class='third'>Born :baby: in <span class='title'><a href='https://en.wikipedia.org/wiki/Malappuram' target='_blank'>Malappuram</a></span>, Kerala.</span><br>\
   <span class='number'>&ensp;4</span><br>\
   <span class='number'>&ensp;5</span>   <span class='white'>======================================</span><br>\
   <span class='number'>&ensp;6</span><br>\
-  <span class='number'>&ensp;7</span>   I ❤ <span class='title'><a href='https://opensource.com/resources/what-open-source' target='_blank'>Open Source</a></span> Technologies.<br>\
-  <span class='number'>&ensp;8</span>   <span class='second'>My favorite technologies are <span class='title'>Node.js</span>, <span class='title'>Python</span>, and <span class='title'>Markdown.</span></span><br>\
+  <span class='number'>&ensp;7</span>   I ❤ <span class='title'><a href='https://opensource.com/resources/what-open-source' target='_blank'>Open Source</a></span> Technologies :computer:.<br>\
+  <span class='number'>&ensp;8</span>   <span class='second'>My favorite :star: technologies are <span class='title'>Node.js</span>, <span class='title'>Python</span>, and <span class='title'>Markdown.</span></span><br>\
   <span class='number'>&ensp;9</span><br>\
-  <span class='number'>10</span>   <span class='third'>//Extremely in love with <span class='second'>Food</span>, <span class='second'>Music</span> and <span class='second'>The Flash</span></span><br>\
-  <span class='number'>11</span>   <span class='third'>//I like to consider myself as a <span class='second'>Meta-Human</span></span><br>\
+  <span class='number'>10</span>   <span class='third'>//Extremely in love with <span class='second'>Emojis :sparkles:</span>, <span class='second'>Music :headphones:</span> and <span class='second'>The Flash :zap:</span></span><br>\
+  <span class='number'>11</span>   <span class='third'>//I like to consider myself as a <span class='second'>Meta-Human :wink:</span></span><br>\
   <span class='number'>12</span><br>\
   <span class='number'>13</span><br>\
   <span class='number'>14</span>   <span class='pure-white'><a href='./blog'>Visit_My_Blog()</a></span><br>\
@@ -24,18 +27,21 @@ contact = "<span class='number'>&ensp;1</span>  <a href='https://github.com/muba
   <span class='number'>&ensp;8</span><br>\
   <span class='number'>&ensp;9</span> <span class='pure-white'><a href='http://mubaris.github.io'>Go_Home()</a></span>"
 
+output = emoji.replace_unified(output);
+output = emoji.replace_colons(output);
+
 document.addEventListener("DOMContentLoaded", function() {
     Typed.new(".content", {
-      strings: [output],
-      typeSpeed: -50,
-      showCursor: false
+        strings: [output],
+        typeSpeed: -50,
+        showCursor: false
     });
 });
 
 document.addEventListener("DOMContentLoaded", function() {
     Typed.new(".contact", {
-      strings: [contact],
-      typeSpeed: -20,
-      showCursor: false
+        strings: [contact],
+        typeSpeed: -20,
+        showCursor: false
     });
 });
