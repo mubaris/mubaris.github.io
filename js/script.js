@@ -1,5 +1,5 @@
 var emoji = new EmojiConvertor();
-emoji.img_sets.apple.path = 'http://cdn.mubaris.com/emojis/';
+emoji.img_sets.apple.path = 'https://cdn.mubaris.com/emojis/';
 
 output = "<span class='number'>&ensp;1</span>   Hi! :wave: My name is <span class='title'><a href='http://mubaris.me' target='_blank'>Mubaris NK</a>.</span><br>\
   <span class='number'>&ensp;2</span>   <span class='second'>I am a student :books: at <span class='title'><a href='https://iiita.ac.in' target='_blank'>Indian Institute of Information Technology, Allahabad</a> :india: </span></span><br>\
